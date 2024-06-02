@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "push-notifications",
+    "slug": "push-notifications",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.smith.pushnotifications"
+    },
+    "android": {
+      "package": "com.smith.pushnotifications",
+      "permissions": ["INTERNET"],
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": ["@react-native-firebase/app"],
+    "extra": {
+      "eas": {
+        "projectId": "215ae872-f978-4abc-a9bb-93f3411e811f"
+      }
+    },
+    "owner": "bearingme"
+  }
+}

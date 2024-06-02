@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "388838908753",
+    "project_id": "push-notifications-fda4f",
+    "storage_bucket": "push-notifications-fda4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388838908753:android:0e97eae7e3e18e6cdf2970",
+        "android_client_info": {
+          "package_name": "com.smith.pushnotifications"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVDPYlp4w-7jddhWpOoPdTLV_ZVzLDXo8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
