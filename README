@@ -14,13 +14,13 @@ Exemplo de como enviar notificações push para dispositivos móveis utilizando 
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/nome-do-projeto.git
+git clone https://github.com/BearingMe/expo-push-notification-study
 ```
 
 2. Navegue até o diretório do projeto:
 
 ```bash
-cd nome-do-projeto
+cd expo-push-notification-study
 ```
 
 3. Instale as dependências:
