@@ -80,15 +80,17 @@ Caso seu emulador suporte, é possível copiar o token diretamente do dispositiv
 Acesse https://console.firebase.google.com/project/<id_projeto>/settings/serviceaccounts/adminsdk
 Gere uma chave privada e salve o arquivo. Este processo só pode ser feito várias vezes, mas cada arquivo é único e só pode ser baixado uma vez.
 
-2. Use REST para enviar a notificação:
-Utilize o arquivo baixado para gerar um token de autorização.
-Isso pode ser feito diretamente pela biblioteca do Google Auth (não confunda com firebase-admin) para backend.
-Ou pode ser feito pelo CLI do Google.
+2. Baixe o google_service.json:
+Vá em Configuração do Projeto (clique na engrenagem próxima a "Visão de Projeto"). No final da aba Geral, há um botão para baixar o Google Services. Use esse arquivo nos aplicativos que receberão notificações, seguindo as instruções na seção de Notificações.
 
-3. Use o token gerado para fazer uma requisição POST para https://fcm.googleapis.com/v1/projects/<id_projeto>/messages:send.
-O token expira em cerca de uma hora.
+3. [Opção 01] - Use REST para enviar a notificação:  
+   - Utilize o arquivo de acesso para o SDK gerar um token de autorização.
+  Isso pode ser feito diretamente pela biblioteca do Google Auth (não confunda com firebase-admin) para backend.
+  Ou pode ser feito pelo CLI do Google.  
+   - Use o token gerado para fazer uma requisição POST para https://fcm.googleapis.com/v1/projects/<id_projeto>/messages:send.
+  O token expira em cerca de uma hora.
 
-4. Também é possível enviar notificações pelo console do Firebase ou a biblioteca firebase-admin. Caso deseje utilizar a biblioteca, instale-a no backend:
+5. [Opção 02] Também é possível enviar notificações pelo console do Firebase ou a biblioteca firebase-admin. Caso deseje utilizar a biblioteca, instale-a no backend:
 ```bash
 npm install firebase-admin
 ```
