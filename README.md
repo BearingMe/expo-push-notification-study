@@ -78,7 +78,7 @@ Caso seu emulador suporte, é possível copiar o token diretamente do dispositiv
 
 1. Crie um arquivo de acesso para o SDK do Firebase:
 Acesse https://console.firebase.google.com/project/<id_projeto>/settings/serviceaccounts/adminsdk
-Gere uma chave privada e salve o arquivo. Este processo só pode ser feito várias vezes, mas cada arquivo é único e só pode ser baixado uma vez.
+Gere uma chave privada e salve o arquivo. Este processo pode ser feito várias vezes, mas cada arquivo é único e só pode ser baixado uma vez.
 
 2. Baixe o google_service.json:
 Vá em Configuração do Projeto (clique na engrenagem próxima a "Visão de Projeto"). No final da aba Geral, há um botão para baixar o Google Services. Use esse arquivo nos aplicativos que receberão notificações, seguindo as instruções na seção de Notificações.
